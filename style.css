@@ -1,0 +1,28 @@
+#title{
+    text-align: center;
+}
+
+
+
+#players{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ #player1_info{
+    background-color: red;
+    color: aliceblue;
+}
+
+
+#player2_info{
+    background-color: blue;
+    color: aliceblue;
+} 
+
+#roll{
+    border-radius:0cap;
+    font-size: xx-large;
+}
+
