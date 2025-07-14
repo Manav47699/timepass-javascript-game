@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fight.css">
+    <title>the ultimate battle</title>
+</head>
+<body>
+    <h1 id="backtoindex"><a href="index.html">GO BACK</a></h1>
+
+
+    <div id = "players">
+
+        <div id = "player1">
+        <label>Enter player 1 name</label>
+        <input id="player1_name"> 
+        <button id="player1_button">Confirm?</button>
+        <label id="player1_confirm"></label>
+        <h3>Choose which strategy you want to follow</h3>
+        <button id="player1_choice_a">ATTACKING</button>
+        <button id="player1_choice_d">DEFENSIVE</button>
+        </div>
+
+        <div id = "player2">
+        <label>Enter player 2 name</label>
+        <input id="player2_name"> 
+        <button id="player2_button">Confirm?</button>
+        <label id ="player2_confirm"></label>
+        <h3>Choose which strategy you want to follow</h3>
+        <button id="player2_choice_a">ATTACKING</button>
+        <button id="player2_choice_d">DEFENSIVE</button>
+        </div>
+
+
+    </div>
+    <hr>
+    <div id="title">
+        <h1>It is the turn of <label id="turn"></label></h1>
+        <hr>
+        <h1>Damage caused: <h1 id ="damage"></h1></h1>
+        <h1>HP gained:  <h1 id = "hp_gained"></h1></h1>
+        <button id="reset">RESET</button>
+        <hr>
+    </div>
+    
+
+    <div id = "players">
+
+        <div id = "player1_2nd">
+        <label id="player1_confirm_2nd"></label>
+        <h1><label id = "player1_name_2nd"></label> hp:</h1>
+        <label id="player1_hp"></label>
+        </div>
+
+        <div id = "player2_2nd">
+        <label id="player2_confirm_2nd"></label>
+        <h1><label id = "player2_name_2nd"></label> hp:</h1>
+        <label id = "player2_hp"></label>
+        </div>
+
+
+    </div>
+<script src="fight.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+Here is a quick summary on how "The ultimate battle works"
+
+-> there are 2 dictonaries "attack_attack" and "defensive_attack" with 5 random keys and value pair. The when the player presses one
+attack statigy, one key and one value is picked at random. key acts as damage and value acts as HP gain.
+
+
+-> the 1st player to attack is choosen at random
+
+-> if either of the player's HP falls below zero, a windows.alert() pop is through declaring the winner
